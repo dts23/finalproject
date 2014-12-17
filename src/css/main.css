@@ -93,7 +93,91 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+  #wrapper{
+    height:1080px;
+    width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+    background-color: #434A67;
+    position:relative;	
+  }
+  
+  #header{
+    width: 1024px;
+	height: 140px;
+	background-color: #FFE29B;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+  
+  }
+  
+  #menu{
+	width:1024px;
+	height:86px;
+	background-color: red;
+	position:absolute;
+	bottom: 0;
+	text-align: center;
+  }
+  
+  #menu ul {
+	  text-align: center;
+	  display: table;
+	  margin-left:auto;
+	  margin-right:auto;
+    }
+	
+	#menu a {
+	  text-decoration: none;
+	  display:block;
+	  color: white;
+	  padding: 30px;
+	}
+	
+	#menu li {
+      display: inline;
+	  float: left;
+	}
+  
+  #content{
+    height: 940px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+  }
+  
+  #contentl{
+    height:593px;
+	width:593px;
+	background-color: #DCEDFF;
+	position:absolute;
+    top:32px;
+    left:0;
+  }
+  
+  #contentr{
+  height:367px;
+  width:367px;
+  background-color: #B8B09D;
+  float: right;
+  position:absolute;
+  top:32px;
+  right:0;
+  }
+  
+  #footer{
+    width:1024px;
+	height: 86px;
+	position:absolute;
+	bottom: 0;
+	background-color: #FFE29B;
+	margin-left: auto;
+	margin-right: auto;
+  }
+	
+  
 
 
 
